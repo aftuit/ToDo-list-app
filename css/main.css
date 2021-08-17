@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+
+body{
+    background-image: url("../assets/back.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;  
+}
+body .card{
+    background-color: #090736;
+    box-shadow: 0 0 15px #e6e8eb;
+    font-family: 'Benne', serif;
+    font-weight: bold;
+    color: white;
+}
+.row .card .card-header{
+    border-bottom: 1px solid white;
+    
+}
+.progress-bar[style]{
+    background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(240, 245, 247, 0.1) 33%, 
+	                           rgba(226, 217, 217, 0.1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, rgb(160, 204, 0), #f44);
+}
+span{
+    font-size: 30px;
+    cursor: pointer;
+}
+.input-group1{
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+
+}
+.input-group1 input{
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 15pxx;
+}
+.input-group1 svg{
+    cursor: pointer;
+}
+#percent-pointer{
+    font-size: 30px;
+}
+.row .col-8{
+   
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    padding-top: 5px;
+
+} 
+.alerts{
+    width: fit-content;
+    padding: 0 10px;
+    margin:2px 5px;
+}
+.alerts button{
+    padding: 0;
+}
